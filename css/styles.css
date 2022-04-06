@@ -1,0 +1,232 @@
+:root{
+    --header-color: #212121;
+    --accent-color: #2196F3;
+    --paragraph-color: #757575;
+    --contrast-color: #fff;
+    --backgroung-color: #2F303A;
+    --footer-link: rgba(255, 255, 255, 0.6);
+    --portfolio-btns: #F5F4FA;
+    --btn-hover: #188CE8;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    color: var(--header-color);
+}
+
+/* --------------- HEADER------------------ */
+
+.logo{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    color: var(--header-color);
+}
+
+.logo-item{
+    color: var(--accent-color);
+}
+
+.header-list-item, .qualities-list-item,
+.about-list-item,
+.team-list-item, .address-list-item {
+    list-style-type: none;
+}
+
+.header-list-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--header-color);
+}
+
+.address-list-item{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--paragraph-color);
+}
+
+.header-list-link:hover, .address-list-item:hover, .header-list-link:focus,
+.address-list-itemk:focus{
+    color: var(--accent-color);
+}
+
+/* --------------- MAIN------------------ */
+
+/* ------- HERO--------- */
+
+.hero{
+    background-color: var(--backgroung-color);
+}
+
+.hero-header{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--contrast-color);
+}
+
+.hero-btn{
+    font-family: inherit;
+    color: var(--contrast-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+
+.hero-btn:hover, .hero-btn:focus{
+    background-color: var(--btn-hover);
+}
+
+/* ------- QUALITIES--------- */
+
+.entry-title {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px
+}
+
+
+.qualities-list-header{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.qualities-list-paragraph{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--paragraph-color);
+}
+
+/* ------- ABOUT--------- */
+
+.about-header{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+
+/* ------- TEAM--------- */
+
+.team-header{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-list-header{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.team-list-paragraph{
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--paragraph-color);
+}
+
+/* --------------- FOOTER------------------ */
+
+.footer{
+    background-color: var(--backgroung-color);
+}
+
+.footer-address{
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--contrast-color);
+}
+
+.footer-link{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--footer-link);
+    text-decoration: none;
+}
+
+.footer-link:hover,.footer-link:focus  {
+    color: var(--accent-color);
+}
+
+.footer-logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    color: var(--contrast-color);
+}
+
+.footer-logo-item {
+    color: var(--accent-color);
+}
+
+/* ------------------------------- PORTFOLIO-------------------------------------- */
+
+/* --------------- CHOICE FILTER------------------ */
+
+.filter-list-item, .product-list-item{
+    list-style-type: none;
+}
+
+.filter-list-btn{
+    font-family: inherit;
+    background-color: var(--portfolio-btns);
+    cursor: pointer;
+}
+
+.filter-list-btn:hover, .filter-list-btn:focus {
+    font-family: inherit;
+    background-color: var(--accent-color);
+    color: var(--contrast-color);
+}
+
+/* --------------- PRODUCT------------------ */
+
+.product-list-header{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.product-list-paragraph{
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--paragraph-color);
+}
+
