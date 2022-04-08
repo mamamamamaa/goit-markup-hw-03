@@ -34,6 +34,8 @@ h1,h2,h3,h4,h5,h5,p,ul{
     height: 80px;
     display: flex;
     align-items: center;
+
+    border-bottom: 1px solid #ECECEC;
 }
 
 .logo{
@@ -300,11 +302,7 @@ margin: 30px 0 10px 0;
 .main-bord{
     padding: var(--size-of-gap) 0 var(--size-of-gap) 0;
 }
-/* --------------- HEADER------------------ */
 
-.header{
-    border-bottom: 1px solid #ECECEC;
-}
 /* --------------- CHOICE FILTER------------------ */
 
 .filter{
