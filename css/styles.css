@@ -23,19 +23,22 @@ h1,h2,h3,h4,h5,h5,p,ul{
 /* --------------- HEADER------------------ */
 
 
-.container{
+.section{
     width: 1200px;
-    padding: 0 15px;
+    padding: var(--size-of-gap) 15px var(--size-of-gap) 15px;
     margin: 0 auto;
     /* outline: 1px solid tomato; */
+}
+
+.header{
+    border-bottom: 1px solid #ECECEC;
 }
 
 .header-box{
     height: 80px;
     display: flex;
     align-items: center;
-
-    border-bottom: 1px solid #ECECEC;
+    padding: 0;
 }
 
 .logo{
@@ -109,6 +112,9 @@ h1,h2,h3,h4,h5,h5,p,ul{
     width: auto;
     background-color: var(--backgroung-color);
     text-align: center;
+
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .hero-header{
@@ -123,13 +129,15 @@ h1,h2,h3,h4,h5,h5,p,ul{
 }
 
 .hero-btn{
-    font-family: inherit;
+    font-family: 'Roboto';
+    font-weight: 700;
     color: var(--contrast-color);
     background-color: var(--accent-color);
     cursor: pointer;
     border-radius: 4px;
     padding: 10px 32px;
     text-align: center;
+    border: transparent;
     
     margin-top: 30px;
     height: 50px;
@@ -142,9 +150,8 @@ h1,h2,h3,h4,h5,h5,p,ul{
 
 /* ------- QUALITIES--------- */
 
-.qualities-sectoin{
-    padding-top: var(--size-of-gap);
-    padding-bottom: var(--size-of-gap);
+.qualities-section{
+    padding-bottom: 0;
 }
 
 .entry-title {
@@ -210,17 +217,6 @@ h1,h2,h3,h4,h5,h5,p,ul{
 
 .team {
     background-color: var(--portfolio-btns);
-    padding: var(--size-of-gap) 0 var(--size-of-gap) 0;
-}
-
-.team-header{
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
-
-    margin-bottom: 50px;
 }
 
 .team-list{
@@ -231,14 +227,26 @@ h1,h2,h3,h4,h5,h5,p,ul{
     margin-right: 30px;
 }
 
-.team-list-header{
-font-weight: 500;
-font-size: 16px;
-line-height: 1.19;
-text-align: center;
-letter-spacing: 0.03em;
+.team-list-item{
+    background-color: #fff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
 
-margin: 30px 0 10px 0;
+.team-container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.team-list-header{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 10px;
 }
 
 .team-list-paragraph{
@@ -253,6 +261,9 @@ margin: 30px 0 10px 0;
 
 .footer{
     background-color: var(--backgroung-color);
+}
+
+.footer-sec{
     padding: 60px 0 60px 0;
 }
 
@@ -307,6 +318,7 @@ margin: 30px 0 10px 0;
 
 .filter{
     margin-bottom: 50px;
+    padding: 0;
 }
 
 .filter-list{
@@ -323,12 +335,13 @@ margin: 30px 0 10px 0;
 }
 
 .filter-list-btn{
-    font-family: inherit;
+    font-family: 'Roboto';
+    font-weight: 500;
     background-color: var(--portfolio-btns);
     cursor: pointer;
 
     border-radius: 4px;
-    border: #fff;
+    border: transparent;
     padding: 6px 22px;
 }
 
@@ -340,9 +353,17 @@ margin: 30px 0 10px 0;
 
 /* --------------- PRODUCT------------------ */
 
+.product{
+    padding: 0;
+}
+
 .product-list{
     display: flex;
     flex-wrap: wrap;
+}
+
+.description-container{
+    padding: 20px 24px;
 }
 
 .product-list-item:not(:nth-child(3n)){
