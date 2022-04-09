@@ -202,10 +202,6 @@ h1,h2,h3,h4,h5,h5,p,ul{
 
 /* ------- ABOUT--------- */
 
-.about{
-    padding-bottom: var(--size-of-gap);
-}
-
 .about-header{
     font-weight: 700;
     font-size: 36px;
@@ -271,9 +267,6 @@ h1,h2,h3,h4,h5,h5,p,ul{
 
 .footer{
     background-color: var(--backgroung-color);
-}
-
-.footer-sec{
     padding: 60px 0 60px 0;
 }
 
@@ -320,9 +313,6 @@ h1,h2,h3,h4,h5,h5,p,ul{
 }
 
 /* ------------------------------- PORTFOLIO-------------------------------------- */
-.main-bord{
-    padding: var(--size-of-gap) 0 var(--size-of-gap) 0;
-}
 
 /* --------------- CHOICE FILTER------------------ */
 
@@ -334,6 +324,7 @@ h1,h2,h3,h4,h5,h5,p,ul{
 .filter-list{
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .filter-list-item:not(:last-child){
