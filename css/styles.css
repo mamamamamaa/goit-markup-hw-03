@@ -22,11 +22,21 @@ h1,h2,h3,h4,h5,h5,p,ul{
 
 /* --------------- HEADER------------------ */
 
+.pic{
+    display: block;
+}
+
+.container{
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .section{
-    width: 1200px;
-    padding: var(--size-of-gap) 15px var(--size-of-gap) 15px;
-    margin: 0 auto;
+    padding-top: var(--size-of-gap);
+    padding-bottom: var(--size-of-gap);
     /* outline: 1px solid tomato; */
 }
 
@@ -380,7 +390,7 @@ h1,h2,h3,h4,h5,h5,p,ul{
     line-height: 2;
     letter-spacing: 0.06em;
 
-    margin: 20px 0 6px 0;
+    margin-bottom: 4px;
 }
 
 .product-list-paragraph{
