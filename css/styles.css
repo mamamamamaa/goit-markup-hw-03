@@ -365,7 +365,9 @@ h1,h2,h3,h4,h5,h5,p,ul{
 
 .description-container{
     padding: 20px 24px;
-    border: 1px solid #EEEEEE ;
+    border-bottom: 1px solid #EEEEEE ;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
 }
 
 .product-list-item:not(:nth-child(3n)){
